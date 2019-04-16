@@ -5,6 +5,7 @@ public class Demo {
 		Demo d=new Demo();
 		d.appConfig();
 		d.appConfig1();
+		d.appConfig2();
 
 	}
 	
@@ -14,6 +15,10 @@ public class Demo {
 	
 	public void appConfig1(){
 		System.out.println("appCongig1");
+	}
+	
+	public void appConfig2(){
+		System.out.println("appCongig2");
 	}
 
 }
